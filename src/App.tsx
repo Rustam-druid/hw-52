@@ -1,9 +1,10 @@
 
 import './App.css'
+import Person from "./assets/components/Person/Person.tsx";
 
 const App = () => (
     <>
-        hello world
+        <Person name={"john"} age={30}/>
     </>
 );
 
